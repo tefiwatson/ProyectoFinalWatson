@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+					<meta charset="UTF-8">
+					<!--- Responsive meta tag!--->
+					<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+					 <!---PALABRAS CLAVE/!--->
+					<meta name="keywords"  content="SUSHI, SANTAFE, SANTOTOME, FORMAS, ORIGINAL, DELIVERY">
+
+				<title>Wasabi Sushi - Santa Fe</title>
+				<!---DESCRIPCION/!--->
+	<meta name="description" content="Wasabi es un delivery de sushi que pone especial atención en la innovación 
+	y originalidad de sus productos. Hay sushi hotgods, sushi bowls, sushi burritos, piezas, combos y más. Se encuentra enSanto tomé - SANTAFE pero realiza envíos a SantaFe, Sauce y zona de countries.">
+					
+					<!--- Bootstrap CSS!--->
+				<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+
+					<!--- mi CSS!npm run watch-css PARA SCSS--->
+					<link rel="stylesheet" href="CSS/style.css" >
+
+
+					<!--- fuentes !--->
+					<link rel="preconnect" href="https://fonts.gstatic.com">
+				<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display&family=La+Belle+Aurore&family=Open+Sans:wght@300;400&family=PT+Sans+Narrow&family=Roboto+Condensed&family=Staatliches&family=Yellowtail&display=swap" rel="stylesheet"> 
+
+
+
+	</head>
+
+
+<body>
+	<header>
+				<!--- ALERTA !--->
+		<div class="alert alert-warning alert-dismissible fade show" role="alert">
+  <strong>Hola Wasaber!</strong> Recordá que trabajamos de miercoles a domingos por la noche.
+  <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+    <span aria-hidden="true">&times;</span>
+  </button>
+</div>
+
+
+	<div  class="container logo">
+		<div class="row justify-content-center">
+		<img src="Assets/Images/logo.png" alt="logowasabi" width="150px" height="150px">
+		</div>
+		</div>	
+		
+<nav class="navbar navbar-expand-lg navbar-light ">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+			<div class="collapse navbar-collapse" id="navbarTogglerDemo01">	  
+				   <a class="navbar-link inicio a"  href="index.html">INICIO</a>
+			 <ul class="navbar-nav mr-auto  mt-lg-0">		   
+				  <li class="nav-item li a">
+				      <a class="nav-link" href="Menu.html">MENÚ</a>
+				  </li>
+				  <li class="nav-item li a">
+				   	 <a class="nav-link" href="Envios.html">ENVÍOS</a>
+				  </li>
+				  <li class="nav-item li a">
+				   	 <a class="nav-link" href="Cursos.html">CURSOS</a>
+				  </li>
+				  <li class="nav-item li a">
+				   	 <a class="nav-link" href="Contacto.html">CONTACTO</a>
+				  </li>
+	
+					 <form class="form-inline buscar">
+				      <input class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Search">
+				      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
+				    </form>
+    			</div>
+    	    </ul>
+    </nav>
+   
+
+</header>
+
+			<!--- CARRUSEL/BANNER !--->
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+		  <ol class="carousel-indicators">
+		    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+		    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+		    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+		  </ol>
+		  <div class="carousel-inner">
+		    <div class="carousel-item active">
+		      <img class="img-fluid banner" src="Assets/Images/Slinky.jpg" class="d-block w-100" alt="SushihotdogSlinky">
+		    </div>
+		    <div class="carousel-item">
+		      <img class="img-fluid banner" src="Assets/Images/Scrispy.jpg" class="d-block w-100" alt="PiezaSalmónCrispy">
+		    </div>
+		    <div class="carousel-item">
+		      <img class="img-fluid banner" src="Assets/Images/Cheesy.jpg" class="d-block w-100" alt="SushiBurritoCheesy">
+		    </div>
+		  </div>
+		  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+		    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+		    <span class="sr-only">Anterior</span>
+		  </a>
+		  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+		    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+		    <span class="sr-only">Siguiente</span>
+		  </a>
+</div>
+
+
+	<div class="jumbotron">
+			  <h1 class="display-4">Hola, wasaber!</h1>
+			  <p class="lead">Te contamos que nuestro es menú es súper abundante y fácilmente adaptable a todos los gustos! Vas a encontrar muchos tipos de productos, te garantizamos que <strong> todos son igual de ricos.</strong> </p>
+			  <hr class="my-4">
+			  <p class="cursiva"> Mentira, probá los combos!</p>
+			  <a class="btn btn-primary btn-lg mira" href="Menu.html" role="button">Mirá el menú!</a>
+	</div>
+
+
+
+	<!--- jquery,popper y js--->
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+
+</body>
+</html>
