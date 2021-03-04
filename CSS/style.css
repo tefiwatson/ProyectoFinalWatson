@@ -114,3 +114,26 @@ li {
 
 .menu {
   padding-top: 50px; }
+
+.mapas {
+  padding: 50px; }
+
+.jumboenvios {
+  font-size: 30px; }
+
+.contacto {
+  font-family: "Big Shoulders Display", cursive;
+  padding: 15px;
+  margin-left: 50px;
+  margin-top: 30px;
+  margin-bottom: 50px; }
+
+.formulario {
+  border: 2px solid black;
+  border-radius: 20px;
+  width: 650px;
+  height: 350px;
+  font-family: "Roboto Condensed", sans-serif;
+  text-align: center;
+  padding-top: 15px;
+  margin-left: 30px; }
